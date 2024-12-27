@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo span {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #007bff;
+  }
+  
+  /* About Label Section */
+  .about-label {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .about-label .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-label h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-label p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* About CEO Section */
+  .about-ceo {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .about-ceo .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .ceo-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .ceo-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .ceo-details h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .ceo-details h3 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .ceo-details p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer .social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .about-ceo .container {
+      flex-direction: column;
+    }
+  
+    .ceo-image img {
+      width: 100%;
+    }
+  
+    .ceo-details {
+      text-align: center;
+    }
+  }
